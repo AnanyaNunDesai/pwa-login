@@ -6,7 +6,6 @@ const LogoPage = () => {
     const navigate = useNavigate();
 
     const handleLogout = () => {
-        // Navigate back to the login page
         navigate('/');
     };
 

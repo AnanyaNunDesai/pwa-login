@@ -15,7 +15,7 @@ const LoginPage = () => {
   }, [email, password]);
 
   const handleLogin = (event) => {
-    event.preventDefault(); // Prevent the default form submission behavior
+    event.preventDefault(); 
     setLoginClicked(true);
 
     if (emailIsValid && passwordIsValid) {
